@@ -3,7 +3,7 @@ os: linux
 language: go
 
 go:
-    - "1.11"
+    - "1.13.5"
 
 python:
     - "3.9"
@@ -11,7 +11,7 @@ python:
 addons:
   apt:
     packages:
-      - flawfinder
+      - build-essential
       - squashfs-tools
       - uuid-dev
       - libuuid1
@@ -21,6 +21,10 @@ addons:
       - libarchive-dev
       - libgpgme11-dev
       - libseccomp-dev
+      - wget
+      - pkg-config
+      - git
+      - crypt-setup
   homebrew:
     packages:
       - squashfs
