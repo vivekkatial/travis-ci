@@ -23,8 +23,6 @@ addons:
       - libseccomp-dev
       - wget
       - pkg-config
-      - git
-      - crypt-setup
   homebrew:
     packages:
       - squashfs
